@@ -1,31 +1,24 @@
 ::selection {
-  background: darkviolet;
-  color: gold;
+  background: salmon;
+  color: #212;
 }
 
 :root {
-  color: #200222;
-  background: skyblue;
+  color: #528;
+  background: peachpuff;
+  background: lemonchiffon;
+  background: #f8f888;
+  background-image: linear-gradient(lemonchiffon, #f8f888);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-contrast: more) {
   :root {
-    background: deepskyblue;
-  }
-}
-
-@media (prefers-contrast: less) {
-  :root {
-    color: #33113d;
+    color: #212;
   }
 }
 
 :any-link {
   color: #50a;
   outline-color: #50a;
-}
-
-mark {
-  color: #11111d;
-  background: magenta;
+  background: salmon;
 }
