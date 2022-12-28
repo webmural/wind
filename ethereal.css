@@ -1,24 +1,25 @@
 ::selection {
-  background: salmon;
-  color: #212;
+  background: #528;
+  color: pink;
 }
 
 :root {
   color: #528;
-  background: peachpuff;
   background: lemonchiffon;
-  background: #f8f888;
-  background-image: linear-gradient(lemonchiffon, #f8f888);
+  background-image: linear-gradient(peachpuff, #bae, skyblue);
 }
 
 @media (prefers-contrast: more) {
   :root {
-    color: #212;
+    color: #213;
   }
 }
 
 :any-link {
-  color: #50a;
-  outline-color: #50a;
-  background: salmon;
+  color: inherit;
+  outline-color: currentColor;
+}
+
+:focus {
+  outline-color: invert;
 }

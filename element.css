@@ -30,15 +30,15 @@ h2 {
 }
 
 :any-link {
-  text-decoration-style: dotted;
-  text-decoration-thickness: .1em;
-}
-
-:any-link:hover {
-  text-decoration-style: solid;
+  text-decoration-style: wavy;
 }
 
 :focus {
+  text-decoration-style: solid;
   outline-width: thick;
   outline-style: dotted;
+}
+
+:hover {
+  text-decoration-style: double;
 }
