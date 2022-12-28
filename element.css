@@ -1,6 +1,7 @@
 html {
   font-family: sans-serif;
-  font-size: calc(1em + 1vmin + 2vmax);
+  font-size: max(1em, 2vmin + 2vmax);
+  line-height: 1.618;
 }
 
 body {
@@ -11,11 +12,13 @@ body {
 }
 
 article {
-  line-height: 1.5;
+  margin: auto;
 }
 
-ul {
-  list-style: circle;
+p {
+  display: table;
+  margin: 0;
+  margin-inline-end: auto;
 }
 
 h1 {
